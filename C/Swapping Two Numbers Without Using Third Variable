@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+
+{
+  clrscr();
+  int a;
+  int b;
+  
+  printf("Enter the two numbers : ");
+  scanf("%d %d",&a,&b);
+  
+  a=a+b;
+  b=a-b;
+  a=a-b;
+  
+  printf("The swap is a=%d , b=%d",a,b);
+  
+  getch();
+ }
